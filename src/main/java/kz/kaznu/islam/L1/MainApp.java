@@ -49,16 +49,28 @@ public class MainApp {
     public static void compareHalfs(int[] arr) {
         int sum1 = 0;
         int sum2 = 0;
+        int count1 = 0;
+        int count2 = 0;
         for (int i = 0; i < arr.length / 2; i++) {
             sum1 ++;
+            count1 += 1;
         }
         for (int i = arr.length / 2; i < arr.length; i++) {
             sum2 ++;
+            count2 += 1;
+        }
+        if (count1 > count2 || count2 > count1) {
+            System.out.println("Odd number of elements");
+        } else {
+        if (sum1 == sum2) {
+            System.out.println("Halfs are equal");
         }
         if (sum1 > sum2) {
             System.out.println("First half is bigger");
-        } else {
+        }
+        if (sum1 < sum2){
             System.out.println("Second half is bigger");
+        }
         }
     }
 }
