@@ -17,7 +17,7 @@ public class MainApp {
         sumElements(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9});
         arrayFilling(5, array);
         arrayChange(5, arr);
-        compareHalfs(new int[]{2, 4, 6, 8, 10, 12, 14, 16, 18, 20});
+        compareHalfs(new int[]{1, 2, 2, 1});
     }
     public static void stringPrint(int a, String b) {
         for (int i = 0; i < a; i++) {
@@ -52,12 +52,12 @@ public class MainApp {
         int count1 = 0;
         int count2 = 0;
         for (int i = 0; i < arr.length / 2; i++) {
-            sum1 ++;
-            count1 += 1;
+            sum1 += arr[i];
+            count1 ++;
         }
         for (int i = arr.length / 2; i < arr.length; i++) {
-            sum2 ++;
-            count2 += 1;
+            sum2 += arr[i];
+            count2 ++;
         }
         if (count1 > count2 || count2 > count1) {
             System.out.println("Odd number of elements");
