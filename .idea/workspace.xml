@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a46e8de-6778-4812-a32e-2823f18253d9" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/kaznu/islam/L1/Box.java" afterDir="false" />
+    <list default="true" id="1a46e8de-6778-4812-a32e-2823f18253d9" name="Changes" comment="homework done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/kaznu/islam/L1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/kaznu/islam/L1/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/kaznu/islam/L1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/kaznu/islam/L1/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW3" />
+        <entry key="$PROJECT_DIR$" value="HW4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +52,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;HW4&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HW5&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
